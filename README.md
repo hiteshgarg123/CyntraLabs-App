@@ -1,16 +1,33 @@
-# cyntralabs_challenge_app
+# CyntraLabs Challenge App
 
-A new Flutter project.
+A Flutter project.
 
-## Getting Started
+### Show some :heart: and star the repo to support the project
 
-This project is a starting point for a Flutter application.
+## Getting Started 🚀
 
-A few resources to get you started if this is your first Flutter project:
+- Clone the repo
+- Install the dependicies
+- Run it `flutter run`
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+## Features 📋
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Complete State Management with `Provider` package.
+- Complete Sign-in , Sign-up flow.
+- Google and Facebook Sign-in working.
+- Good looking UI.
+- Splash screen added.
+
+## Notes 📝
+
+- All the icons and images are arbitrary and can be changed.
+
+## Preview 📸
+
+|                                           |                                           |                                           |
+| ----------------------------------------- | ----------------------------------------- | ----------------------------------------- |
+| <img src="screenshots/1.png" width="400"> | <img src="screenshots/2.png" width="400"> | <img src="screenshots/3.png" width="400"> |
+
+## Contact me 📧
+
+#### Email : hiteshgarg285@gmail.com

@@ -40,8 +40,7 @@ class _SignUpPageState extends State<SignUpPage> {
     try {
       await model.signUp();
       //Get Current user and set details to firestore
-      // Navigator.of(context).pop();
-
+      Navigator.of(context).pop();
     } on PlatformException catch (e) {
       PlatformExceptionAlertDialog(
         title: 'Sign in failed',
@@ -73,14 +72,14 @@ class _SignUpPageState extends State<SignUpPage> {
           Container(
             padding: EdgeInsets.symmetric(
               horizontal: 30.0,
-              vertical: 30.0,
+              vertical: 15.0,
             ),
             child: Column(
               mainAxisAlignment: MainAxisAlignment.start,
               crossAxisAlignment: CrossAxisAlignment.center,
               children: <Widget>[
                 SizedBox(
-                  height: 40.0,
+                  height: 20.0,
                 ),
                 Row(
                   children: <Widget>[
@@ -190,10 +189,11 @@ class _SignUpPageState extends State<SignUpPage> {
             ),
           ),
           Expanded(
-            flex: 6,
+            flex: 5,
             child: _buildDobTextField(),
           ),
           Expanded(
+            flex: 1,
             child: IconButton(
               icon: Icon(
                 Icons.calendar_today,
@@ -234,7 +234,7 @@ class _SignUpPageState extends State<SignUpPage> {
         ],
       ),
       SizedBox(
-        height: 30.0,
+        height: 20.0,
       ),
       SizedBox(
         width: 250.0,

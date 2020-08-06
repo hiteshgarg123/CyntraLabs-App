@@ -70,7 +70,7 @@ class _EmailSignInFormState extends State<EmailSignInForm> {
   void _toggleFormType() {
     _emailController.clear();
     _passwordController.clear();
-    Navigator.pushReplacement(
+    Navigator.push(
       context,
       MaterialPageRoute(
         builder: (context) => SignUpPage.create(context),
