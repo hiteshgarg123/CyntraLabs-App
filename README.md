@@ -17,6 +17,7 @@ A Flutter project.
 - Google and Facebook Sign-in working.
 - Good looking UI.
 - Splash screen added.
+- Complete Error handling.
 
 ## Notes 📝
 
