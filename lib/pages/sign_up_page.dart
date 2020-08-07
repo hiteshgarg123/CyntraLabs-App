@@ -35,6 +35,15 @@ class _SignUpPageState extends State<SignUpPage> {
 
   EmailSignInModel get model => widget.model;
 
+  @override
+  void dispose() {
+    super.dispose();
+    _usernameController.dispose();
+    _emailController.dispose();
+    _passwordController.dispose();
+    _dobController.dispose();
+  }
+
   Future<void> _submit() async {
     //final database = Provider.of<FirestoreService>(context, listen: false);
     try {
